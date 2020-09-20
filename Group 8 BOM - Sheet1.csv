@@ -1,0 +1,15 @@
+Mini Project BOM,,,,,,,,,,,,,,,
+Component,,,Cost per Unit,,Number of Units,,Total Cost,,"More info? Size, part number, etc",,,,,,Link To Item
+MOSFET,,,$0.43 ,,1,,$0.43 ,,,,,,,,https://www.digikey.com/product-detail/en/diodes-incorporated/DMN1019USN-13/DMN1019USN-13DICT-ND/4898885
+555 Timer IC,,,$0.36 ,,2,,$0.72 ,,,,,,,,https://www.digikey.com/product-detail/en/texas-instruments/NE555DR/296-6501-1-ND/372490
+Speaker,,,$4.63 ,,1,,$4.63 ,,,,,,,,https://www.digikey.com/product-detail/en/soberton-inc/SP-4029-1/433-1276-ND/9924437
+100k variable resistor,,,$0.78 ,,1,,$0.78 ,,,,,,,,https://www.digikey.com/product-detail/en/nidec-copal-electronics/CT6EP104/CT6EP104-ND/738305
+50k variable resistor,,,$0.78 ,,1,,$0.78 ,,,,,,,,https://www.digikey.com/product-detail/en/nidec-copal-electronics/CT6EP503/CT6EP503-ND/738315
+Capactior 0.01 uF,,,$0.26 ,,3,,$0.52 ,,,,,,,,https://www.digikey.com/product-detail/en/kemet/C315C103K1R5TA7303/399-13907-1-ND/6562514
+Capacitor 15 uF,,,$0.61 ,,2,,$1.22 ,,,,,,,,https://www.digikey.com/product-detail/en/tdk-corporation/FG14X5R1E156MRT00/445-181220-ND/7326655
+Resistor 2.2k,,,$0.10 ,,2,,$0.20 ,,,,,,,,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT2K20/CF14JT2K20CT-ND/1830358
+Capacitor 1 uF,,,$0.39 ,,1,,$0.39 ,,,,,,,,https://www.digikey.com/product-detail/en/kemet/C440C105M5U5TA7200/399-4521-1-ND/818378
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,HELLO THERE,,,,,,,,,,
