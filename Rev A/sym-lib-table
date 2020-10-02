@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name mini-project-newest-rescue)(type Legacy)(uri "${KIPRJMOD}/mini project newest-rescue.lib")(options "")(descr ""))
+)

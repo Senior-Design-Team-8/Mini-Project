@@ -1,6 +1,6 @@
-update=2020-09-27 7:39:11 PM
+update=2020-10-02 2:34:24 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -248,9 +248,9 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Analog
-Clearance=0.2
-TrackWidth=0.3
-ViaDiameter=0.8
+Clearance=0.89916
+TrackWidth=0.70104
+ViaDiameter=0.70104
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1

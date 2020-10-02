@@ -414,7 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2250 8950 2250
 $Comp
-L Timer:LM555 U1
+L mini-project-newest-rescue:LM555-Timer U1
 U 1 1 5F77AB9D
 P 2900 2600
 F 0 "U1" H 2900 3181 50  0000 C CNN
@@ -425,7 +425,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 2900 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Timer:LM555 U2
+L mini-project-newest-rescue:LM555-Timer U2
 U 1 1 5F787D1A
 P 5800 2600
 F 0 "U2" H 5800 3181 50  0000 C CNN
