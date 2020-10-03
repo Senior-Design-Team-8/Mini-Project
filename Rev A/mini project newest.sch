@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:mini project newest-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -405,8 +404,6 @@ Ground
 Text Notes 10525 2325 0    79   ~ 16
 Speaker
 Wire Wire Line
-	8675 2350 9775 2350
-Wire Wire Line
 	8675 2350 8675 6000
 Wire Wire Line
 	8250 2250 8300 2250
@@ -475,19 +472,6 @@ F 3 "~" H 9300 1200 50  0001 C CNN
 	1    9300 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5F7B091D
-P 9100 1425
-F 0 "#PWR0102" H 9100 1175 50  0001 C CNN
-F 1 "GND" H 9105 1252 50  0000 C CNN
-F 2 "" H 9100 1425 50  0001 C CNN
-F 3 "" H 9100 1425 50  0001 C CNN
-	1    9100 1425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 1425 9100 1300
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5F7B5D1C
@@ -589,39 +573,6 @@ F 3 "~" H 3400 6625 50  0001 C CNN
 	1    3200 6625
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5F7C07AF
-P 2025 6900
-F 0 "#PWR0103" H 2025 6650 50  0001 C CNN
-F 1 "GND" H 2030 6727 50  0000 C CNN
-F 2 "" H 2025 6900 50  0001 C CNN
-F 3 "" H 2025 6900 50  0001 C CNN
-	1    2025 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5F7C1724
-P 2625 6900
-F 0 "#PWR0104" H 2625 6650 50  0001 C CNN
-F 1 "GND" H 2630 6727 50  0000 C CNN
-F 2 "" H 2625 6900 50  0001 C CNN
-F 3 "" H 2625 6900 50  0001 C CNN
-	1    2625 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5F7C40C3
-P 3200 6900
-F 0 "#PWR0105" H 3200 6650 50  0001 C CNN
-F 1 "GND" H 3205 6727 50  0000 C CNN
-F 2 "" H 3200 6900 50  0001 C CNN
-F 3 "" H 3200 6900 50  0001 C CNN
-	1    3200 6900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2025 6625 2025 6900
 Wire Wire Line
@@ -645,6 +596,54 @@ F 1 "Q_NMOS_SGD" H 7731 2355 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92" H 7725 2500 50  0001 C CNN
 F 3 "~" H 7525 2400 50  0001 C CNN
 	1    7525 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 2350 9775 2350
+$Comp
+L power:Earth #PWR?
+U 1 1 5F78CD2D
+P 9100 1375
+F 0 "#PWR?" H 9100 1125 50  0001 C CNN
+F 1 "Earth" H 9100 1225 50  0001 C CNN
+F 2 "" H 9100 1375 50  0001 C CNN
+F 3 "~" H 9100 1375 50  0001 C CNN
+	1    9100 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1300 9100 1375
+$Comp
+L power:Earth #PWR?
+U 1 1 5F7924F0
+P 2025 6900
+F 0 "#PWR?" H 2025 6650 50  0001 C CNN
+F 1 "Earth" H 2025 6750 50  0001 C CNN
+F 2 "" H 2025 6900 50  0001 C CNN
+F 3 "~" H 2025 6900 50  0001 C CNN
+	1    2025 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F795194
+P 2625 6900
+F 0 "#PWR?" H 2625 6650 50  0001 C CNN
+F 1 "Earth" H 2625 6750 50  0001 C CNN
+F 2 "" H 2625 6900 50  0001 C CNN
+F 3 "~" H 2625 6900 50  0001 C CNN
+	1    2625 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F797EB9
+P 3200 6900
+F 0 "#PWR?" H 3200 6650 50  0001 C CNN
+F 1 "Earth" H 3200 6750 50  0001 C CNN
+F 2 "" H 3200 6900 50  0001 C CNN
+F 3 "~" H 3200 6900 50  0001 C CNN
+	1    3200 6900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
